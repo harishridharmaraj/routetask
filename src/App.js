@@ -9,6 +9,7 @@ import Blog from "./components/blog";
 function App() {
   return (
     <div className="App">
+      <a href="/blog">Blog</a>
       <Routes>
         <Route path="/blog" element={<Header />}>
           <Route index element={<Blog />} />
