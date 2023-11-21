@@ -1,0 +1,20 @@
+.main {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* height: 100vh; */
+}
+.card {
+  width: 350px;
+  height: 500px;
+  margin: 10px;
+}
+.imgs {
+  width: 350px;
+  object-fit: fill;
+  height: 200px;
+}
+.content {
+  height: 150px;
+}
